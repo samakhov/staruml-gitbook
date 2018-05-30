@@ -25,7 +25,7 @@ The obtained element is just a Javascript object, so you can access to any field
 
 ## Inspecting elements
 
-Then, how can we know which classes of elements are available and which attributes or operations are available for each class of elements? You can find documentations of the metamodel at [-- FIXME -- Metamodel documentation](http://starumldocs-7a0.kxcdn.com/2.0.0/metamodel/) or additionally at [-- FIXME -- API Docs](http://starumldocs-7a0.kxcdn.com/2.0.0/api/).
+Then, how can we know which classes of elements are available and which attributes or operations are available for each class of elements? You can find documentations of the metamodel at [Metamodel documentation](http://staruml.io/reference/3.0.0/metamodel) or additionally at [API Reference](http://staruml.io/reference/3.0.0/api).
 
 You can access to any elements via the top-level project. Containment structure is shown in __Explorer__ of the above capture image.
 

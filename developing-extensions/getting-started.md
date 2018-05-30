@@ -54,7 +54,7 @@ exports.init = init
 
 ## Application Context
 
-To write an extension with Javascript, you need to use StarUML's open APIs. You can use most of API functions via the application context object `app`. The `app` includes objects providing useful APIs for commands, menus, keymaps, preferences, factory, dialogs, etc. For more about `app` object, see [-- FIXME -- API Reference](http://...).
+To write an extension with Javascript, you need to use StarUML's open APIs. You can use most of API functions via the application context object `app`. The `app` includes objects providing useful APIs for commands, menus, keymaps, preferences, factory, dialogs, etc. For more about `app` object, see [API Reference](http://staruml.io/reference/3.0.0/api).
 
 > __Note__
 >

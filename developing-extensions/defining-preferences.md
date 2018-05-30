@@ -9,7 +9,7 @@ To define your own preferences, use `app.preferences`.
 
 ## Defining preference schema
 
-Before we get in detail, it's better to take a look at an example. Following is a part of preference schema of [-- FIXME -- Java extension](https://github.com/staruml/Java).
+Before we get in detail, it's better to take a look at an example. Following is a part of preference schema of [Java extension](https://github.com/staruml/staruml-java).
 
 ```javascript
 var javaPreferences = {

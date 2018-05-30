@@ -33,7 +33,7 @@ To scroll automatically so as to show the element, pass `true` value as the seco
 ```js
 app.modelExplorer.select(book, true)
 ```
-To select a view element in diagram, use `app.diagrams`. You can find more functions about selection in [-- FIXME -- API Docs](http://starumldocs-7a0.kxcdn.com/2.0.0/api/index.html).
+To select a view element in diagram, use `app.diagrams`. You can find more functions about selection in [API Reference](http://staruml.io/reference/3.0.0/api).
 
 ```js
 var diagram = app.repository.select("@Diagram")[0]
