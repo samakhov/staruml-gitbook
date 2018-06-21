@@ -181,6 +181,21 @@ var options = {
 var tag1 = app.factory.createModel(options)
 ```
 
+## Modifying elements
+
+### Change property value
+
+You __should not__ modify a property of an element directly like `class1.name = "New Name"` because all changes should be done via _operations_ which supports by undo and redo.
+
+To change property value, use `app.engine.setProperty()` function as below:
+
+```js
+// Get a selected element
+var selected = app.selections.getSelected()
+// Change property value
+app.engine.setProperty(selected, 'name', 'New Name')
+```
+
 ## Examples
 
 ### Sequence Diagram
